@@ -1,0 +1,16 @@
+.Page {
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: transform 0.5s ease-in-out;
+}
+.Page-enter{
+    transform: translateX(100%);
+}
+.Page-enter-active{
+    transform: translateX(0);
+}
+.Page-exit-active{
+    transform: translateX(-100%);
+}
