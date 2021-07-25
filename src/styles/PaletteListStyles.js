@@ -24,6 +24,7 @@ export default {
     container: {
         width: "50%",
         display: "flex",
+        marginBottom: "3rem",
         alignItems: "flex-start",
         flexDirection: "column",
         flexWrap: "wrap",

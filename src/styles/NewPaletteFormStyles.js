@@ -19,13 +19,14 @@ const styles = theme => ({
         display: "flex",
         alignItems: "center",
         width: "100%",
+        height: "74px",
         padding: "0 8px",
         ...theme.mixins.toolbar,
         justifyContent: "flex-end"
     },
     content: {
         flexGrow: 1,
-        height: "calc(100vh - 64px)",
+        height: "calc(100vh - 74px)",
         transition: theme.transitions.create("margin", {
             easing: theme.transitions.easing.sharp,
             duration: theme.transitions.duration.leavingScreen

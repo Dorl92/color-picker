@@ -15,7 +15,7 @@ const styles = theme => ({
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",
-        height: "64px"
+        height: "74px"
     },
     appBarShift: {
         width: `calc(100% - ${drawerWidth}px)`,
@@ -26,8 +26,8 @@ const styles = theme => ({
         })
     },
     menuButton: {
-        marginLeft: 12,
-        marginRight: 20
+        marginLeft: 5,
+        marginRight: 5
     },
     navBtns: {
         marginRight: "1rem",
@@ -35,14 +35,18 @@ const styles = theme => ({
             textDecoration: "none"
         },
         [sizes.down("xs")]: {
-            marginRight: "0.5rem"
+            marginRight: "0.5rem", 
+            marginLeft: "1.5rem"  
         }
     },
     button: {
         margin: "0 0.5rem",
         [sizes.down("xs")]: {
-            margin: "0 0.2rem",
-            padding: "0.3rem"
+            margin: "0.1rem 0.1rem",
+            padding: "0.3rem",
+            "& span":{
+                fontSize: "12px",
+            },
         }
     },
     hide: {
