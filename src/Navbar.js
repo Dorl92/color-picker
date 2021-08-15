@@ -24,7 +24,7 @@ class Navbar extends Component {
     closeSnackbar() {
         this.setState({ open: false })
     }
-    render() {
+    render() { 
         const { level, changeLevel, showSlider, classes } = this.props;
         const { format } = this.state;
         return (
