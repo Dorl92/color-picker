@@ -49,7 +49,7 @@ class PaletteList extends Component {
             <div className={classes.root}>
                 <div className={classes.container}>
                     <nav className={classes.nav}>
-                        <h1>React Colors</h1>
+                        <h1>Colors Picker</h1>
                         <Link to="/palette/new">Create palette</Link>
                     </nav>
                     <TransitionGroup className={classes.palettes}>
